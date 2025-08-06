@@ -8,7 +8,7 @@ SPREADSHEET_ID = "1mexwrRDGRyXA1qOdY8kG41omLkSVpJzfdRz8mYaCqmg" # <<< Changed to
 WORKSHEET_NAME = "Tubi"  # Keep this as your actual sheet tab name
 
 # Flask API URL (local or via ngrok)
-API_URL = "http://127.0.0.1:3333/check_tubi"  # Change to ngrok URL if deployed externally
+API_URL = "https://mcp-analyzer.onrender.com"  # Change to ngrok URL if deployed externally
 
 # Google Sheets authentication
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
